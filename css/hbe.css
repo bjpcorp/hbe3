@@ -1,0 +1,111 @@
+.navbar-dark .nav-item .nav-link {
+    color: white;
+}
+
+#about {
+  background-image: url("assets/img/slide-image2.jpg");
+  height: auto;
+  background-size: auto;
+  background-position: center;
+  align-content: center;
+}
+.sr-only {
+  display: none;
+}
+.carousel-indicators {
+    position: absolute;
+    right: 0;
+    bottom: 10px;
+    left: 0;
+    z-index: 15;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    padding-left: 0;
+    margin-right: 15%;
+    margin-left: 15%;
+    list-style: none;
+  }
+  .newsletter-subscribe {
+    color:#313437;
+    background-color:#fff;
+    padding:50px 0;
+  }
+
+  .newsletter-subscribe p {
+    color:#7d8285;
+    line-height:1.5;
+  }
+
+  .newsletter-subscribe h2 {
+    font-size:24px;
+    font-weight:bold;
+    margin-bottom:25px;
+    line-height:1.5;
+    padding-top:0;
+    margin-top:0;
+    color:inherit;
+  }
+
+  .newsletter-subscribe .intro {
+    font-size:16px;
+    max-width:500px;
+    margin:0 auto 25px;
+    color: white;
+  }
+
+  .newsletter-subscribe .intro p {
+    margin-bottom:35px;
+  }
+
+  .newsletter-subscribe form {
+    text-align: center;
+    justify-content:center;
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .newsletter-subscribe form .form-control {
+    background:#eff1f4;
+    border:none;
+    border-radius:3px;
+    box-shadow:none;
+    outline:none;
+    color:inherit;
+    text-indent:9px;
+    height:45px;
+    margin-right:10px;
+    min-width:250px;
+  }
+
+  .newsletter-subscribe form .btn {
+    padding:16px 32px;
+    border:none;
+    background:none;
+    box-shadow:none;
+    text-shadow:none;
+    opacity:0.9;
+    text-transform:uppercase;
+    font-weight:bold;
+    font-size:13px;
+    letter-spacing:0.4px;
+    line-height:1;
+  }
+
+  .newsletter-subscribe form .btn:hover {
+    opacity:1;
+  }
+
+  .newsletter-subscribe form .btn:active {
+    transform:translateY(1px);
+  }
+
+  .newsletter-subscribe form .btn-primary {
+    background-color:#055ada !important;
+    color:#fff;
+    outline:none !important;
+  }
