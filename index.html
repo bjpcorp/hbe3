@@ -68,11 +68,17 @@
 
     <!-- Slider -->
 
-    <div id="home" class="container-fluid">
+    <div id="home" class="container-fluid g-0">
 
       <div id="carouselExampleIndicators" class="carousel slide carousel-fade" data-bs-ride="carousel">
+
+        <ol class="carousel-indicators">
+          <li type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"></li>
+          <li type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"></li>
+        </ol>
+
         <div class="carousel-inner">
-          <div class="carousel-item item active">
+          <div class="carousel-item active">
             <img class="d-block w-100" src="assets/img/slide-image1.jpg" alt="Slide 1">
             <div class="carousel-caption d-none d-md-block">
               <iframe width="50%" height="166" scrolling="no" frameborder="no" allow="autoplay"
@@ -87,10 +93,7 @@
             </div>
           </div>
         </div>
-        <div class="carousel-indicators">
-          <button type="button" data-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-          <button type="button" data-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-        </div>
+
         <button class="carousel-control-prev" type="button" href="#carouselExampleIndicators" data-bs-slide="prev">
           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
           <span class="visually-hidden">Previous</span>
