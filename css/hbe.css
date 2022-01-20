@@ -2,12 +2,14 @@
     color: white;
 }
 
-#about {
-  background-image: url("assets/img/slide-image2.jpg");
-  height: auto;
-  background-size: auto;
-  background-position: center;
+.about {
+  background-image: url("../assets/img/slide-image2.jpg");
+  background-position: top;
   align-content: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-blend-mode: darken;
+
 }
 .sr-only {
   display: none;
