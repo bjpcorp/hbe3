@@ -1,7 +1,9 @@
 .navbar-dark .nav-item .nav-link {
     color: white;
 }
-
+.bg-black {
+  background-color: black;
+}
 .about {
   background-image: url("../assets/img/slide-image2.jpg");
   background-position: top;
@@ -33,7 +35,7 @@
   }
   .newsletter-subscribe {
     color:#313437;
-    background-color:#fff;
+    background-color:#000;
     padding:50px 0;
   }
 
